@@ -1,0 +1,353 @@
+.body{
+    font-size: 0.8em;
+    background-color: antiquewhite;
+}
+
+.h2text{
+    color: #c59056;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header-list{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ListNoBullet{
+    list-style-type: none;
+}
+
+.AliceFont{
+    font-family: 'Alice', Georgia ;
+}
+
+
+
+
+#header{
+    display: flex;
+    margin-top: 1em;
+    font-size: 1.6em;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 30px;
+}
+
+.HomePage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Square{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: #c59056;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.Info_Centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.TextCentered{
+    margin-top: 20px;
+    align-items: center;
+    align-self: center;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.Textsize{
+    font-size: 17px;
+}
+
+.TextCentered2{
+text-align: center;
+}
+
+.BOLD{
+    font-weight: bold;
+}
+
+.ImageHome{
+width: 50vw;
+}
+
+.TextHome{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+}
+
+#AnissaXavier{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    align-self:self-end;
+    font-size: 2em;
+    color: #c59056;
+}
+
+#TitleMariage{
+    font-family: 'Alice', Georgia ;
+    font-size: 6em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-weight: bold;
+
+}
+
+#TitleDate{
+    font-family: 'Alice', Georgia ;
+    font-size: 2.6em;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    font-weight: bold;
+    justify-self: self-end;
+}
+
+#TitleOrganisation{
+    font-family: 'Brittany Signature',"Brush Script MT", sans-serif;
+    font-size: 6em;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding-top: 0.9em;
+    color: #c59056;                                            
+}
+#StoosHike1{
+    width: 50vw;
+    padding-bottom: 30px;
+}
+
+  .Border{
+    border-bottom: 1px solid #00000030
+  }
+  
+  .NoChange{
+    text-decoration: none;
+  }
+
+  .WeekendPlan{
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+    border-top: 1px solid #00000030;
+    padding-top: 30px
+  }
+
+  .StoosHikebox{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+  }
+
+  .TextHighlight{
+    text-shadow: -1px 0 #00000080, 0 1px  #00000080, 1px 0  #00000080, 0 -1px  #00000080;
+  }
+
+
+#ImageEnd{
+    width: 300px;
+    border: 10px solid white;
+}
+
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.button_reponse{
+    background-color: #c59056; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.Center{
+    display: flex;
+    justify-content: center;
+}
+
+  .Planbox{
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    justify-self: center;
+    align-self: top;
+    margin-bottom: 20px;
+  }
+  
+
+    .Vendredi{
+        margin-top: 20px;
+        }
+
+    .Samedi{
+        margin-top: 20px;
+        }
+    
+
+        
+    .Dimanche{
+        margin-top: 20px;
+        }
+        
+
+/* Carousel */
+.WhiteBorderImage{
+    margin-top: 30px;
+    border: 5px white solid;
+}
+
+
+
+
+
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+/* MEDIA QUERY - MAKE THE WEBSITE RESPONSIBLE */
+
+@media only screen and (max-width: 1200px) {
+
+    .TextHome{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr;
+    }
+  }
+
+  .Centered_Carousel{
+    height: 100vh;
+  }
+
+
+@media only screen and (max-width: 992px) {
+    .WeekendPlan{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .h2text{
+        color: #c59056;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .Vendredi{
+    margin-top: 20px;
+    }
+
+    .Samedi{
+    margin-top: 40px;
+    }
+
+    .Dimanche{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    #StoosHike1{
+        width: 60vw;
+        padding-bottom: 30px;
+    }
+  }
+
+  .border-Top{
+    border-top: solid 1px #00000030;
+  }
+
+
+@media only screen and (max-width: 800px) {
+    .body {
+        font-size: 0.6em;
+    }
+
+    .TextHome{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr;
+    }
+    #TitleOrganisation{
+        padding-top: 0.9em
+    }
+
+    #header{
+        font-size: 2em;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .body {
+        font-size: 0.4em;
+    }
+
+    .TextHome{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr 1fr;
+    }
+    #TitleOrganisation{
+        padding-top: 0.9em;
+    }
+
+    #header{
+        font-size: 2em;
+    }
+    
+  }
+
+
+@import url('https://fonts.cdnfonts.com/css/brittany-signature');
